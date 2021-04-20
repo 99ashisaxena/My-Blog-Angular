@@ -1,0 +1,47 @@
+[
+    {
+    "blogId": 1,
+    "blogc": "Breads",
+    "blogimg": "assets/images/11.jpg",
+    "content": "Out of all the famous breads of Italy, the Focaccia is one of the most loved. Often packed the flavour and seasoning, the Focaccia takes its name from the Latin word for ‘hearth’. The bread is mottled with dips when properly baked, with the original Roman process ensuring it was cooked in the embers of a hearth.There isn’t much that goes into this popular bread, with strong flour, olive oil and yeast, the keys to achieving the recognisable surface and texture. If you bake this at home, ensure you roll out the bread fairly thickly, then dent the surface to prevent any bubbles during the bake. Finally, focaccia is coated in olive oil, as well as a variety of versatile toppings, such as herbs, garlic and onion.",
+    "blogA": "By L B Marketing on 25th April 2018",
+    "brating": 4.8
+  },
+
+  {
+    "blogId": 2,
+    "blogc": "cakes",
+    "blogimg": "assets/images/12.jpg",
+    "content": "You probably know this very rich-tasting cream cheese as one of the key ingredients in tiramisu, which is made by draining the moisture from the cream of cow’s milk through a finely woven cloth.It’s a milky-white creamy cheese which is easy to spread and as well as being used in tiramisu, is sometimes used in cheesecake, or as a substitute for butter or Parmesan cheese to help thicken and enrich risotto dishes.",
+    "blogA": "By Ali B on 23rd March 2018",
+    "brating": 4.2
+  },
+  {
+    "blogId": 3,
+    "blogc": "Pasta",
+    "blogimg": "assets/images/13.jpg",
+    "content": "People are often reluctant to make their own pasta, especially when it’s so easy to pop to the shops and buy some dried pasta, but making your own is actually a lot easier than you might think. If you ask a selection of chefs, chances are that they’ll all give you a slightly different way of making pasta, some with water, some with oil and all with different kneading times, meaning it can all get pretty confusing.That’s why we’ve put together this quick guide to making fresh pasta as a beginner, keeping things simple to allow you to grasp the basics before you can start to experiment a little bit more.",
+    "blogA": "By Rachael Mishell on 27th February 2018 ",
+    "brating": 3.4
+  },
+
+
+  {
+    "blogId": 4,
+    "blogc": "Wine",
+    "blogimg": "assets/images/14.jpg",
+    "content": "Engaging the Senses- When you are tasting wine, it’s not just your taste buds that you are using. In fact, you will need to engage your other senses such as smell and sight. These senses will help you to take the time to take in every element of the wine, making your tasting all the better.",
+    "blogA": "By Bella on 19th December 2019",
+    "brating": 4.3
+  },
+  {
+    "blogId": 5,
+    "blogc": "Wine",
+    "blogimg": "assets/images/14.jpg",
+    "content": "Engaging the Senses- When you are tasting wine, it’s not just your taste buds that you are using. In fact, you will need to engage your other senses such as smell and sight. These senses will help you to take the time to take in every element of the wine, making your tasting all the better.",
+    "blogA": "By Bella on 19th December 2019",
+    "brating": 4.3
+  }
+
+
+]

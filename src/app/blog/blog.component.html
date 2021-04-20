@@ -1,0 +1,54 @@
+<form class="form-horizontal"   [formGroup]="addBlog" (ngSubmit)= "createBlog()">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Create Blog</h3>
+    </div>
+    <div class="panel-body">
+      <div class="form-group">
+        <label for="blogId" class="col-sm-2 control-label">Blog Id</label>
+        <div class="col-sm-8">
+          <input type="number" class="form-control" id="blogid" name="blogId" formControlName="blogId">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="blogc" class="col-sm-2 control-label">Blog Cat</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="blogc" name="blogc" formControlName="blogc" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="blogimg" class="col-sm-2 control-label">Blog Img</label>
+        <div class="col-sm-8">
+          <input type="file" class="form-control" id="blogimg" name="blogimg" formControlName="blogimg">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="content" class="col-sm-2 control-label">Blog Content</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="content" name="content" formControlName="content">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="blogA" class="col-sm-2 control-label">Blog A</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="blogA" name="blogA" formControlName="blogA">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="brating" class="col-sm-2 control-label">BlogR</label>
+        <div class="col-sm-8">
+          <input type="number" class="form-control" id="brating" name="brating" formControlName="brating">
+        </div>
+      </div>
+
+    </div>
+
+<div class="panel-footer">
+    <button type="submit" class="btn btn-primary">Add Blog</button>
+</div>
+
+
+  </div>
+
+</form>

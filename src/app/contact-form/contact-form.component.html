@@ -1,0 +1,99 @@
+<div class="container">
+
+
+<div class=" card ">
+  <div class="card-header heading">
+
+    Register Please!
+
+  </div>
+  <div class="card-body">
+    <form novalidate (ngSubmit)="save(regForm)" #regForm="ngForm">
+
+      <div class="  form-group" >
+
+        <label class="col-md-2 col-form-label" for="firstNameId">Full Name</label>
+        <div class="col-md-4">
+          <input type="text" required class="form-control" id="firstNameId" minlength="3" name="firstName" placeholder="Full Name"
+            [(ngModel)]=user.firstName #firstNameVar="ngModel"
+            [ngClass]="{'is-invalid':(firstNameVar.touched||firstNameVar.dirty)&& !firstNameVar.valid }  " />
+          <span class="invalid-feedback">
+            <span *ngIf="firstNameVar.errors?.required">
+              Please enter your full name.
+            </span>
+            <span *ngIf="firstNameVar.errors?.minlength">
+            Please enter you name!
+            </span>
+          </span>
+        </div>
+        <br>
+
+          <div class="form-group ">
+            <label class="col-md-2 col-form-label" for="emailId">Email</label>
+            <div class="col-md-4">
+              <input class="form-control" id="emailId" type="email" placeholder="Email" required email
+                [(ngModel)]="user.email" name="email" #emailVar="ngModel"
+                [ngClass]="{'is-invalid': (emailVar.touched || emailVar.dirty) && !emailVar.valid }" />
+              <span class="invalid-feedback">
+                <span *ngIf="emailVar.errors?.required">
+                  Please enter your email address.
+                </span>
+                <span *ngIf="emailVar.errors?.email">
+                  Please enter a valid email address.
+                </span>
+              </span>
+            </div>
+       
+          </div>
+
+
+
+          <div class="form-group ">
+            <label class="col-md-2 col-form-label" for="Mob">Mobile No.</label>
+            <div class="col-md-4">
+              <input class="form-control" id="Mob" type="tel" placeholder="Mobile No." required Mob
+                [(ngModel)]="user.Mob" name="email" #MobVar="ngModel"
+                [ngClass]="{'is-invalid': (MobVar.touched || MobVar.dirty) && !MobVar.valid }" />
+              <span class="invalid-feedback">
+                <span *ngIf="MobVar.errors?.required">
+                  Please enter your Mobile No.
+                </span>
+                <span *ngIf="MobVar.errors?.email">
+                  Please enter a valid Mobile No.
+                </span>
+              </span>
+            </div>
+       
+          </div>
+
+
+
+          <div class="form-group row mb-2">
+            <div class="offset-md-2 col-md-4">
+              <button class="btn btn-primary mr-3" type="submit" style="width:80px"
+                [title]="regForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                [disabled]="!regForm.valid" (click)="onSave()">
+                Save
+              </button>
+            </div>
+          </div>
+       
+
+      </div>
+
+
+    </form>
+
+
+
+
+
+ 
+
+
+</div><div ><img src="assets/images/cup.jpg" class="img"></div>
+
+
+</div>
+
+</div><br><br><br><br><br><br>

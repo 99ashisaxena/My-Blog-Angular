@@ -1,0 +1,35 @@
+<form class="form-horizontal" [formGroup]="editBlog" (ngSubmit)="updateBlog()" >
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Edit Blog</h3>
+      </div>
+      <div class="panel-body">
+       
+        <div class="form-group">
+          <label for="blogc" class="col-sm-2 control-label">Blog Cat</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control"  formControlName="blogc">
+          </div>
+        </div>
+       
+  
+        
+        <div class="form-group">
+          <label for="blogA" class="col-sm-2 control-label">Blog A</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control"  formControlName="blogA">
+          </div>
+        </div>
+      
+  
+      </div>
+  
+  <div class="panel-footer">
+      <button class="btn btn-primary" type="submit" >Edit</button>
+  </div>
+  
+  
+    </div>
+  
+  </form>
+  
